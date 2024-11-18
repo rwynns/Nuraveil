@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Roca;
+    src: url('../fonts/Roca-Regular.ttf');
+  }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* #hero .hero-container {
+    background-image: url('../img/bg-slide1.png');
+    background-size: cover;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+#hero .kanan {
+    background-image: url('../img/hero-image2.png');
+    background-size: cover;
+    background-position: center;
+} */
+
+#hero .container-fluid {
+    background-image: url('../img/bg-slide1.png');
+    background-size: cover;
+}
+
+#hero .btn {
+    font-size: 1.8rem;
+}
+
+#hero .btn:hover {
+    background-color: green;
+    color: white;
+}
+
+#about .container-fluid {
+    background-image: url('../img/bg-slide2.png');
+}
+
+#about h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Roca';
+    color: #156669;
+    font-size: 3rem;
+}
+
+#about p{
+    font-family: 'Roca';
+    color: #156669;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#about .btn {
+    font-family: Roca;
+    color: #156669;
+    font-size: 1.8rem;
+}
+
+#about .btn:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Add these CSS rules */
+#about img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    #about img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Add these CSS rules */
+@media (max-width: 768px) {
+  #hero .container-fluid {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #hero .kiri {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  }
+  
+  #hero .kanan {
+    position: relative;
+    z-index: 0;
+  }
+
+  #hero .kanan img {
+    min-height: 100vh;
+  }
+}
+
+/* Desktop layout remains unchanged */
+@media (min-width: 769px) {
+  #hero .kiri,
+  #hero .kanan {
+    position: relative;
+  }
+}
+
+#features .container-fluid{
+    background-image: url('../img/bg-slide2.png');
+    font-family: 'Roca';
+}
+
+.heading h1{
+    font-family: 'Roca';
+    font-size: 3rem;
+    color: #156669;
+    margin-top: 30px;
+}
+
+#features .card-title {
+    color: #156669;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#features .card-text {
+    color: #156669;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+#sosmed .col-md-2 {
+    min-height: 350px;
+}
+
+#sosmed .container-fluid{
+    background-image: url('../img/bg-slide2.png');
+    font-family: 'Roca';
+    height: 100%;
+}
+
+#sosmed h3 {
+    font-family: 'Roca';
+    color: #156669;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#sosmed p {
+    font-family: 'Roca';
+    color: #156669;
+    font-size: 1.5rem;
+}
+
+#contact{
+    background-image: url('../img/bg-slide5.png');
+    background-size:cover;
+    font-family: 'Roca';
+}
+
+#contact h1{
+    color : #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#contact p{
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 1px #000000;
+}
