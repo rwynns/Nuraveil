@@ -113,6 +113,7 @@ body {
     color: #156669;
     font-size: 1.2rem;
     font-weight: normal;
+    text-align: justify;
 }
 
 #sosmed .col-md-2 {
@@ -145,6 +146,10 @@ body {
     font-size: 1.5rem;
 }
 
+#sosmed img:hover{
+    filter: brightness(110%);
+}
+
 @media (max-width: 768px) {
     #sosmed img{
         width: 100px;
@@ -160,6 +165,20 @@ body {
 
     #sosmed .arya {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    #sosmed img{
+        width: 80px;
+    }
+
+    #sosmed h3 {
+        font-size: 1.5rem;
+    }
+
+    #sosmed p { 
+        font-size: 1.1rem;
     }
 }
 
@@ -180,6 +199,14 @@ body {
     color: #ffffff;
     font-size: 1.2rem;
     text-shadow: 1px 1px 1px #000000;
+}
+
+#contact a{
+    text-decoration: none;
+}
+
+#contact p:hover{
+    color: #00dce4;
 }
 
 @media (min-width: 768px) {
